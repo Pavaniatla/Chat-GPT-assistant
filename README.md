@@ -3,10 +3,10 @@ The Miniature ChatGPT Voice Assistant is a project aimed at creating a compact a
 
 Building a speech recognition system involves integrating hardware components, setting up cloud services, and writing code to capture, process, and interpret audio data. 
 
-Purpose
+
 The purpose of this project is to provide users with a miniature voice assistant that can understand spoken commands, generate contextual responses, and perform a variety of tasks
 
-Scope
+
 The scope of the Miniature ChatGPT Voice Assistant includes basic functionalities such as conversation, information retrieval and task execution through voice commands.
 
 Features:
@@ -23,7 +23,7 @@ High-Level Architecture
 
 The high-level architecture of the Miniature ChatGPT Voice Assistant involves the ESP32-S3 microcontroller handling local voice processing and the integration of cloud-based Speech-to-Text and ChatGPT APIs for advanced natural language understanding and response generation.
 
-Components Overview
+Components Overview:
 ESP32-S3 Module:
 Handles local voice input and performs initial speech recognition.
 Interacts with cloud-based APIs for extended natural language processing.
@@ -43,7 +43,7 @@ Integrates with the ESP32-S3 to provide a rich conversational experience.
 User Interface Module:
 Manages the chat interface for users to interact through voice and text.
 
-Interaction Flow
+Interaction Flow:
 User provides a voice input by asking a question.
 ESP32-S3 processes the voice input locally for basic command recognition.
 Recognized speech is converted to text for accurate processing.
@@ -52,12 +52,12 @@ The user interface module displays the answer to the user's question on the devi
 
 
 Software and Hardware Requirements:
-Hardware
+Hardware:
 1.	XIAO ESP32S3 
 2.	USB cable
 3.	microSD Card of 32GB To Store Recording Files
 
-Software
+Software:
 1.	GPT-3.5 API access
 2.	Speech recognition library
 3.	Speech-To-Text API
